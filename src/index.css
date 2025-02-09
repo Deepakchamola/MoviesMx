@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* primary - #1F1E24 */
+/* secondary - #4692DD */
+
+::-webkit-scrollbar{
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-thumb{
+  background: #000000;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #4692DD;
+}
+
+select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  box-shadow: none;
+  border: 0 !important;
+  background: #27272a;
+  background-image: none;
+  flex: 1;
+  color: #fff;
+  font-size: 1em;
+  padding: 0 0.5em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+select::-ms-expand{
+  display: none;
+}
+.select{
+  position: relative;
+  display: flex;
+  width: 12em;
+  height: 3em;
+  border-radius: 0.25em;
+  line-height: 3;
+  overflow: hidden;
+  background: #27272a;
+}
+.select::after{
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #27272a;
+  cursor: pointer;
+  pointer-events: none;
+  transition: 0.25s all ease;
+}
+.select:hover::after{
+  color: #4692DD;
+}
