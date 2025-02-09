@@ -19,7 +19,7 @@ A responsive movie and TV show website built with ReactJS, Redux, Tailwind CSS, 
 <img src="https://github.com/Deepakchamola/MoviesMx/blob/8df873c361fb0ade7582fd20a39b9e0cf3383be0/MovieMx_SS.png" width="800px" height="400px" />
 
 ## Live Demo
-Watch the live demonstration of the webite: [View Live]()
+Watch the live demonstration of the webite: [View Live](https://movies-mx-gamma.vercel.app/)
 
 ## Usage
 - Browse through Popular and Trending sections for movies and TV shows.
